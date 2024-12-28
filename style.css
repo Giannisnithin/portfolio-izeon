@@ -1,0 +1,61 @@
+.universal{
+    background-color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+p:hover{
+    color: rgb(147, 176, 247);
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+#home-align{
+    margin-top: 100px;
+}
+
+#titles{
+    text-align: center;
+    color: white;
+}
+
+#nav-icon-navigation{
+    text-decoration: none;
+    color: white;
+}
+
+#nav-icon-navigation:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: box-shadow 0.5s;
+}
+
+.image-container:hover .image {
+    box-shadow: 0 0 20px 10px rgba(52, 152, 219, 0.7);
+}
+
+#footer{
+    background-color: rgb(255, 200, 0);
+    color: black;
+}
